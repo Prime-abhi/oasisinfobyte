@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #e63946;
+}
+
+.hero-section {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin: 10px 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00bfa5;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #008a73;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.feature {
+    width: 30%;
+}
+
+.feature img {
+    width: 80px;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Advantages Section */
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.advantage {
+    width: 30%;
+}
+
+.advantage img {
+    width: 80px;
+}
+
+.advantage h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.advantage p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Servers Section */
+.servers {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.servers img {
+    width: 100%;
+    max-width: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
